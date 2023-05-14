@@ -1,0 +1,528 @@
+TYPE,CYL,ENGINE L,FUEL TANK L,CONS. L/100km,FUEL TYPE,CAR
+Passenger,6,3.0,80,11.0,PETROL,Maserati Ghibli
+Passenger,6,3.0,80,8.7,PETROL,Mercedes-Benz CLS-Class
+SUV,4,2.0,70,10.4,PETROL,SsangYong Rexton
+SUV,8,6.4,93,14.0,PETROL,Jeep Grand  Cherokee
+SUV,8,5.7,93,13.0,PETROL,Jeep Grand  Cherokee
+Passenger,8,5.0,66,11.3,PETROL,Lexus GS
+SUV,8,5.0,82,11.7,PETROL,Jaguar F-PACE
+SUV,8,5.0,82,11.7,PETROL,Land  Rover Range  Rover Velar
+SUV,8,5.0,104,12.8,PETROL,Land  Rover Range  Rover Sport
+Passenger,8,4.4,68,10.6,PETROL,BMW 5  Series
+Passenger,8,4.4,68,10.4,PETROL,BMW M5
+SUV,8,4.4,83,12.5,PETROL,BMW X5 M
+SUV,8,4.4,83,12.5,PETROL,BMW X6 M
+SUV,8,4.4,83,11.5,PETROL,BMW X5
+SUV,8,4.4,83,11.5,PETROL,BMW X6
+SUV,8,4.0,85,12.6,PETROL,Mercedes-Benz GLE-Class
+SUV,8,4.0,90,11.9,PETROL,Porsche Cayenne
+Passenger,8,4.0,80,9.3,PETROL,Mercedes-Benz E-Class
+SUV,8,3.8,80,13.5,PETROL,Maserati Levante
+Passenger,6,3.5,66,9.3,PETROL,Lexus GS
+SUV,6,3.5,72,9.6,PETROL,Lexus RX
+SUV,6,3.0,80,11.6,PETROL,Maserati Levante
+Passenger,6,3.0,63,7.4,PETROL,Audi A6
+Passenger,6,3.0,63,7.3,PETROL,Audi A7
+SUV,6,3.0,82,9.4,PETROL,Land  Rover Range  Rover Velar
+SUV,6,3.0,80,9.1,PETROL,Mercedes-Benz GLE-Class
+Passenger,6,3.0,74,8.3,PETROL,Jaguar XF
+Passenger,6,3.0,80,8.9,PETROL,Mercedes-Benz CLS-Class
+Passenger,6,3.0,80,8.9,PETROL,Mercedes-Benz E-Class
+SUV,6,3.0,83,9.2,PETROL,BMW X5
+SUV,6,3.0,82,8.9,PETROL,Jaguar F-PACE
+SUV,6,3.0,83,9.0,PETROL,BMW X6
+SUV,6,3.0,90,9.2,PETROL,Porsche Cayenne
+SUV,6,2.9,90,9.4,PETROL,Porsche Cayenne
+SUV,4,2.0,80,10.9,PETROL,Haval H9
+SUV,4,2.0,75,10.2,PETROL,LDV D90
+SUV,4,2.0,60,7.6,PETROL,SKODA Kodiaq
+Passenger,4,2.0,61,7.6,PETROL,Holden Calais
+Passenger,4,2.0,61,7.4,PETROL,Holden Commodore
+Passenger,4,2.0,66,8.0,PETROL,Lexus GS
+SUV,4,2.0,71,8.5,PETROL,Volvo XC90
+Passenger,4,2.0,66,7.8,PETROL,Mercedes-Benz CLS-Class
+SUV,4,2.0,63,7.1,PETROL,Jaguar F-PACE
+SUV,4,2.0,72,8.1,PETROL,Lexus RX
+Passenger,4,2.0,66,7.1,PETROL,Mercedes-Benz E-Class
+Passenger,4,2.0,63,6.3,PETROL,Audi A6
+Passenger,4,2.0,66,6.6,PETROL,SKODA Superb
+Passenger,4,2.0,68,6.5,PETROL,BMW 5  Series
+SUV,4,2.0,82,7.6,PETROL,Land  Rover Range  Rover Velar
+Passenger,4,2.0,74,6.8,PETROL,Jaguar XF
+SUV,4,2.0,104,9.2,PETROL,Land  Rover Range  Rover Sport
+Passenger,6,3.8,77,10.4,PETROL,Genesis G80
+SUV,6,3.6,60,9.9,PETROL,Subaru Outback
+Passenger,6,3.6,61,9.1,PETROL,Holden Calais
+Passenger,6,3.6,61,8.9,PETROL,Holden Commodore
+SUV,6,3.6,66,9.6,PETROL,Jeep Wrangler
+SUV,6,3.6,73,8.9,PETROL,Holden Acadia
+SUV,6,3.6,93,10.0,PETROL,Jeep Grand  Cherokee
+SUV,6,3.5,71,10.6,PETROL,Hyundai Santa  Fe
+SUV,6,3.5,71,10.0,PETROL,Kia Sorento
+SUV,6,3.5,73,9.9,PETROL,Nissan Pathfinder
+SUV,6,3.5,72,9.1,PETROL,Toyota Kluger
+Passenger,6,3.3,60,10.2,PETROL,Kia Stinger
+SUV,4,2.5,60,7.3,PETROL,Subaru Outback
+SUV,4,2.5,73,8.6,PETROL,Nissan Pathfinder
+SUV,4,2.5,72,8.4,PETROL,Mazda CX-9
+SUV,4,2.5,72,8.1,PETROL,Mazda CX-8
+Passenger,4,2.0,60,8.8,PETROL,Kia Stinger
+SUV,4,1.2,32,4.7,PETROL,Suzuki Ignis
+Passenger,3,1.2,45,4.9,PETROL,Citroen C3
+Passenger,4,2.0,40,6.4,PETROL,Audi A1
+Passenger,4,2.0,40,6.3,PETROL,MINI Hatch
+Passenger,4,2.0,40,6.1,PETROL,Volkswagen Polo
+Passenger,4,2.0,48,7.1,PETROL,MINI Clubman
+Passenger,4,1.5,45,6.7,PETROL,MG MG3
+Passenger,4,1.5,40,5.8,PETROL,Audi A1
+Passenger,3,1.5,40,5.5,PETROL,MINI Hatch
+Passenger,4,1.4,37,6.1,PETROL,Suzuki Swift
+Passenger,4,1.4,37,5.4,PETROL,Suzuki Baleno
+SUV,4,1.4,53,6.7,PETROL,Holden Trax
+Passenger,3,1.0,37,5.1,PETROL,Suzuki Swift
+Passenger,3,1.0,40,5.4,PETROL,Audi A1
+SUV,3,1.0,46,5.8,PETROL,Nissan JUKE
+Passenger,3,1.0,40,4.8,PETROL,Volkswagen Polo
+Passenger,3,1.0,45,4.5,PETROL,SKODA Fabia
+SUV,4,2.0,48,6.6,PETROL,Mazda CX-3
+SUV,4,1.6,45,7.0,PETROL,Hyundai Venue
+Passenger,4,1.5,40,6.5,PETROL,Honda Jazz
+SUV,4,1.5,40,6.4,PETROL,Suzuki Jimny
+Passenger,4,1.5,40,5.9,PETROL,Honda City
+Passenger,3,1.5,45,6.3,PETROL,Ford Fiesta
+Passenger,4,1.5,44,5.4,PETROL,Mazda 2
+Passenger,4,1.4,37,5.1,PETROL,Suzuki Baleno
+Passenger,4,1.4,45,5.6,PETROL,Kia Rio
+Passenger,4,1.2,37,4.6,PETROL,Suzuki Swift
+Passenger,3,1.0,45,5.4,PETROL,Kia Rio
+SUV,4,2.5,58,7.4,PETROL,Mazda CX-5
+SUV,4,2.0,56,6.9,PETROL,Mazda CX-5
+Passenger,4,2.0,63,6.7,PETROL,Jaguar XE
+SUV,8,4.0,66,12.2,PETROL,Mercedes-Benz GLC-Class
+Passenger,8,4.0,66,10.4,PETROL,Mercedes-Benz C-Class
+Passenger,6,3.5,60,8.7,PETROL,Toyota Camry
+Passenger,6,3.5,66,9.5,PETROL,Lexus IS
+Passenger,6,3.3,60,10.2,PETROL,Genesis G70
+SUV,6,3.0,65,10.6,PETROL,BMW X3 M
+SUV,6,3.0,65,10.6,PETROL,BMW X4 M
+SUV,6,3.0,66,10.4,PETROL,Mercedes-Benz GLC-Class
+Passenger,6,3.0,66,9.4,PETROL,Mercedes-Benz C-Class
+SUV,6,3.0,65,8.7,PETROL,BMW X3
+SUV,6,3.0,65,8.7,PETROL,BMW X4
+Passenger,6,3.0,58,7.7,PETROL,Audi S4
+Passenger,6,3.0,59,7.7,PETROL,BMW 3  Series
+SUV,6,3.0,75,9.6,PETROL,Porsche Macan
+SUV,6,3.0,70,8.7,PETROL,Audi SQ5
+Passenger,6,3.0,60,6.8,PETROL,BMW 4  Series
+SUV,6,3.0,90,9.9,PETROL,Land  Rover Defender
+Passenger,6,2.9,58,9.5,PETROL,Audi RS4
+SUV,6,2.9,64,10.2,PETROL,Alfa  Romeo Stelvio
+Passenger,6,2.9,58,8.2,PETROL,Alfa  Romeo Giulia
+SUV,6,2.9,75,9.6,PETROL,Porsche Macan
+Passenger,4,2.5,50,4.8,PETROL,Lexus ES
+Passenger,4,2.5,50,4.2,PETROL,Toyota Camry
+Passenger,4,2.5,66,4.9,PETROL,Lexus IS
+SUV,4,2.0,55,8.2,PETROL,Holden Equinox
+Passenger,4,2.0,60,8.7,PETROL,Genesis G70
+Passenger,4,2.0,60,8.7,PETROL,Subaru Levorg
+SUV,4,2.0,60,8.6,PETROL,Ford Escape
+Passenger,4,2.0,51,6.7,PETROL,Mercedes-Benz CLA-Class
+Passenger,4,2.0,50,6.5,PETROL,SKODA Octavia
+SUV,4,2.0,60,7.8,PETROL,Volvo XC60
+SUV,4,2.0,60,7.7,PETROL,Lexus NX
+SUV,4,2.0,60,7.7,PETROL,Mercedes-Benz GLB-Class
+SUV,4,2.0,60,7.6,PETROL,Volkswagen Tiguan
+SUV,4,2.0,55,6.9,PETROL,SKODA Karoq
+Passenger,4,2.0,60,7.3,PETROL,Volvo S60
+Passenger,4,2.0,60,7.3,PETROL,Volvo V60
+SUV,4,2.0,67,8.1,PETROL,Land  Rover Discovery  Sport
+SUV,4,2.0,67,8.1,PETROL,Land  Rover Range  Rover Evoque
+SUV,4,2.0,75,8.9,PETROL,Porsche Macan
+Passenger,4,2.0,59,7.0,PETROL,BMW 3  Series
+SUV,4,2.0,66,7.8,PETROL,Mercedes-Benz GLC-Class
+SUV,4,2.0,65,7.4,PETROL,BMW X3
+SUV,4,2.0,65,7.4,PETROL,BMW X4
+Passenger,4,2.0,66,7.5,PETROL,Lexus IS
+SUV,4,2.0,64,7.0,PETROL,Alfa  Romeo Stelvio
+Passenger,4,2.0,66,7.0,PETROL,Mercedes-Benz C-Class
+Passenger,4,2.0,58,6.0,PETROL,Alfa  Romeo Giulia
+SUV,4,2.0,70,7.2,PETROL,Audi Q5
+Passenger,4,2.0,54,5.3,PETROL,Audi A4
+Passenger,4,2.0,66,6.4,PETROL,Volkswagen Passat
+Passenger,4,2.0,60,5.8,PETROL,BMW 4  Series
+SUV,4,1.8,55,6.8,PETROL,Volkswagen Golf
+SUV,4,1.6,53,7.9,PETROL,Citroen C5  Aircross
+SUV,4,1.6,53,7.0,PETROL,Peugeot 3008
+SUV,4,1.6,56,7.0,PETROL,Peugeot 5008
+Passenger,4,1.6,60,7.4,PETROL,Subaru Levorg
+Passenger,4,1.6,62,6.3,PETROL,Peugeot 508
+SUV,4,1.5,55,7.3,PETROL,MG HS
+SUV,4,1.5,60,6.3,PETROL,Ford Escape
+SUV,4,1.4,50,6.6,PETROL,SKODA Karoq
+SUV,4,1.4,58,7.1,PETROL,Volkswagen Tiguan
+Passenger,4,1.4,50,5.5,PETROL,SKODA Octavia
+Passenger,4,1.4,54,5.5,PETROL,Audi A4
+Passenger,4,1.3,43,5.7,PETROL,Mercedes-Benz CLA-Class
+SUV,4,1.3,52,6.5,PETROL,Mercedes-Benz GLB-Class
+Passenger,6,3.6,60,9.9,PETROL,Subaru Liberty
+SUV,6,3.2,60,9.8,PETROL,Jeep Cherokee
+SUV,4,2.5,60,8.1,PETROL,Renault Koleos
+SUV,4,2.5,60,7.9,PETROL,Nissan X-TRAIL
+Passenger,4,2.5,60,7.8,PETROL,Toyota Camry
+Passenger,4,2.5,60,7.3,PETROL,Subaru Liberty
+SUV,4,2.5,63,7.4,PETROL,Subaru Forester
+Passenger,4,2.5,62,7.0,PETROL,Mazda 6
+SUV,4,2.5,56,5.6,PETROL,Lexus NX
+SUV,4,2.5,55,4.7,PETROL,Toyota RAV4
+SUV,4,2.4,62,8.5,PETROL,Kia Sportage
+Passenger,4,2.4,70,8.3,PETROL,Hyundai Sonata
+Passenger,4,2.4,70,8.3,PETROL,Kia Optima
+SUV,4,2.4,63,7.2,PETROL,Mitsubishi Outlander
+SUV,4,2.0,48,6.7,PETROL,Subaru Forester
+SUV,4,2.0,60,8.2,PETROL,Nissan X-TRAIL
+SUV,4,2.0,57,7.6,PETROL,Honda CR-V
+SUV,4,2.0,62,7.9,PETROL,Kia Sportage
+SUV,4,2.0,62,7.8,PETROL,Hyundai Tucson
+SUV,4,2.0,55,6.8,PETROL,Toyota RAV4
+Passenger,4,2.0,70,8.5,PETROL,Hyundai Sonata
+Passenger,4,2.0,70,8.5,PETROL,Kia Optima
+Passenger,4,2.0,58,6.7,PETROL,Audi A4
+SUV,4,2.0,65,7.3,PETROL,BMW X4
+SUV,4,2.0,63,7.0,PETROL,Mitsubishi Outlander
+SUV,4,2.0,65,7.1,PETROL,BMW X3
+Passenger,4,2.0,66,7.0,PETROL,Mercedes-Benz C-Class
+Passenger,4,2.0,48,4.3,PETROL,Honda Accord
+SUV,4,1.6,62,7.7,PETROL,Hyundai Tucson
+SUV,4,1.5,55,6.9,PETROL,Holden Equinox
+SUV,4,1.5,57,7.0,PETROL,Honda CR-V
+Passenger,4,1.5,56,6.5,PETROL,Honda Accord
+Passenger,4,1.2,35,4.9,PETROL,Fiat 500
+Passenger,4,1.2,35,4.8,PETROL,Fiat 500C
+Passenger,4,1.4,35,6.0,PETROL,Abarth 595
+Passenger,4,1.3,35,5.0,PETROL,Kia Picanto
+Passenger,3,1.2,35,4.7,PETROL,Mitsubishi Mirage
+Passenger,3,1.0,35,4.8,PETROL,Kia Picanto
+,4,2.2,70,11.0,PETROL,Mahindra XUV500
+Passenger,6,3.3,80,10.8,PETROL,Kia Carnival
+Passenger,4,2.4,55,7.6,PETROL,Honda Odyssey
+Light  Commercial,4,2.4,75,11.4,PETROL,Mitsubishi Triton
+Light  Commercial,4,2.4,58,12.7,PETROL,Great  Wall Steed
+Light  Commercial,4,2.7,80,11.1,PETROL,Toyota Hilux
+Light  Commercial,8,5.7,98,12.2,PETROL,RAM 1500
+Light  Commercial,6,3.6,83,11.2,PETROL,Jeep Gladiator
+SUV,4,2.5,48,6.8,PETROL,Mazda CX-30
+Passenger,4,2.5,51,6.3,PETROL,Mazda 3
+SUV,4,2.0,51,6.5,PETROL,Mazda CX-30
+Passenger,4,2.0,51,6.4,PETROL,Mazda 3
+SUV,4,2.0,47,5.8,PETROL,Lexus UX
+Passenger,4,1.8,43,3.4,PETROL,Toyota Prius
+Passenger,4,2.5,60,10.9,PETROL,Subaru WRX
+Passenger,4,2.3,52,8.1,PETROL,Ford Focus
+Passenger,4,2.0,47,8.8,PETROL,Honda Civic
+Passenger,4,2.0,50,8.0,PETROL,Hyundai i30
+SUV,4,2.0,51,8.0,PETROL,Mercedes-Benz GLA-Class
+Passenger,4,2.0,60,9.2,PETROL,Subaru WRX
+Passenger,4,2.0,50,7.5,PETROL,BMW 1  Series
+SUV,4,2.0,54,7.2,PETROL,Volvo XC40
+SUV,4,2.0,55,7.2,PETROL,Volkswagen T-Roc
+Passenger,4,2.0,50,6.5,PETROL,Volkswagen Golf
+SUV,4,2.0,51,6.6,PETROL,MINI Countryman
+Passenger,4,2.0,51,6.5,PETROL,Mercedes-Benz A-Class
+Passenger,4,2.0,50,6.1,PETROL,Audi A3
+Passenger,4,2.0,55,6.7,PETROL,Audi S3
+SUV,4,2.0,55,6.5,PETROL,Audi Q2
+SUV,4,2.0,51,6.0,PETROL,BMW X2
+SUV,4,2.0,68,7.7,PETROL,Jaguar E-PACE
+SUV,4,2.0,61,6.5,PETROL,BMW X1
+Passenger,4,2.0,51,5.3,PETROL,Mazda 3
+Passenger,4,1.8,50,8.0,PETROL,Renault Megane
+SUV,4,1.8,43,4.3,PETROL,Toyota C-HR
+Passenger,4,1.8,45,4.4,PETROL,Toyota Prius  V
+Passenger,4,1.8,45,4.1,PETROL,Lexus CT
+Passenger,4,1.8,60,6.8,PETROL,Alfa  Romeo Giulietta
+Passenger,4,1.6,48,6.3,PETROL,Holden Astra
+SUV,4,1.5,55,8.2,PETROL,Haval H2
+SUV,4,1.5,47,7.0,PETROL,SsangYong Korando
+SUV,4,1.5,48,7.1,PETROL,MG ZS
+SUV,3,1.5,51,6.3,PETROL,BMW X1
+SUV,3,1.5,51,6.3,PETROL,BMW X2
+SUV,3,1.5,51,6.3,PETROL,MINI Countryman
+Passenger,3,1.5,52,6.4,PETROL,Ford Focus
+Passenger,3,1.5,50,5.9,PETROL,BMW 1  Series
+Passenger,3,1.5,50,5.9,PETROL,BMW 2  Series
+Passenger,4,1.5,50,4.9,PETROL,SKODA Scala
+SUV,4,1.4,47,5.9,PETROL,Suzuki S-Cross
+SUV,4,1.4,47,5.9,PETROL,Suzuki Vitara
+SUV,4,1.4,58,7.2,PETROL,Audi Q3
+Passenger,4,1.4,50,5.7,PETROL,Volkswagen Golf
+SUV,4,1.4,50,5.3,PETROL,Audi Q2
+Passenger,4,1.4,50,5.0,PETROL,Audi A3
+Passenger,4,1.4,60,4.9,PETROL,Alfa  Romeo Giulietta
+SUV,4,1.3,43,6.2,PETROL,Mercedes-Benz GLA-Class
+Passenger,4,1.3,43,5.7,PETROL,Mercedes-Benz A-Class
+Passenger,4,1.3,43,5.7,PETROL,Mercedes-Benz B-Class
+SUV,4,1.3,55,6.3,PETROL,Renault Kadjar
+SUV,4,1.2,50,6.4,PETROL,Toyota C-HR
+Passenger,3,1.2,53,5.0,PETROL,Peugeot 308
+SUV,3,1.0,48,6.7,PETROL,MG ZS
+SUV,3,1.0,40,5.4,PETROL,Volkswagen T-Cross
+Passenger,3,1.0,50,4.8,PETROL,Audi A3
+SUV,4,2.4,66,9.7,PETROL,Jeep Compass
+SUV,4,2.4,63,7.9,PETROL,Mitsubishi ASX
+Passenger,4,2.0,50,7.6,PETROL,Kia Cerato
+Passenger,4,2.0,50,7.3,PETROL,Hyundai i30
+SUV,4,2.0,50,7.2,PETROL,Hyundai Kona
+Passenger,4,2.0,50,7.0,PETROL,Hyundai Elantra
+SUV,4,2.0,50,6.8,PETROL,Kia Seltos
+Passenger,4,2.0,50,6.6,PETROL,Subaru Impreza
+Passenger,4,2.0,50,6.3,PETROL,Toyota Corolla
+SUV,4,2.0,63,7.7,PETROL,Mitsubishi ASX
+SUV,4,2.0,65,7.7,PETROL,Nissan Qashqai
+SUV,4,2.0,63,7.0,PETROL,Subaru XV
+Passenger,4,1.8,47,6.4,PETROL,Honda Civic
+SUV,4,1.8,50,6.6,PETROL,Honda HR-V
+Passenger,4,1.8,43,4.2,PETROL,Toyota Corolla
+Passenger,4,1.6,50,7.8,PETROL,Hyundai Elantra
+SUV,4,1.6,50,7.6,PETROL,Kia Seltos
+Passenger,4,1.6,50,7.5,PETROL,Hyundai i30
+Passenger,4,1.6,50,6.8,PETROL,Kia Cerato
+SUV,4,1.6,50,6.7,PETROL,Hyundai Kona
+SUV,4,1.6,47,5.8,PETROL,Suzuki Vitara
+Passenger,4,1.6,45,3.4,PETROL,Hyundai IONIQ
+Passenger,4,1.5,47,6.0,PETROL,Honda Civic
+SUV,4,1.5,63,7.3,PETROL,Mitsubishi Eclipse  Cross
+Passenger,4,1.4,48,5.8,PETROL,Holden Astra
+Passenger,4,1.8,45,6.2,PETROL,Alpine A110
+Passenger,12,6.6,82,14.4,PETROL,Rolls-Royce Dawn
+Passenger,12,6.6,82,14.3,PETROL,Rolls-Royce Wraith
+Passenger,12,6.5,85,18.4,PETROL,Lamborghini Aventador
+Passenger,12,6.5,92,15.8,PETROL,Ferrari 812  GTS
+Passenger,12,6.5,92,15.0,PETROL,Ferrari 812  Superfast
+Passenger,12,6.3,91,15.3,PETROL,Ferrari GTC4Lusso
+Passenger,12,6.0,90,13.6,PETROL,Bentley Continental
+Passenger,10,5.2,80,13.9,PETROL,Lamborghini Huracan
+Passenger,12,5.2,78,12.4,PETROL,Aston  Martin DBS
+Passenger,12,5.2,78,11.4,PETROL,Aston  Martin DB11
+Passenger,8,5.0,61,12.7,PETROL,Ford Mustang
+Passenger,8,5.0,66,11.2,PETROL,Lexus RC
+Passenger,8,5.0,70,11.3,PETROL,Jaguar F-TYPE
+Passenger,8,5.0,82,11.6,PETROL,Lexus LC
+Passenger,8,4.7,75,14.5,PETROL,Maserati GranCabrio
+Passenger,8,4.7,86,14.3,PETROL,Maserati GranTurismo
+Passenger,8,4.7,75,9.1,PETROL,Mercedes-Benz SL-Class
+Passenger,8,4.4,66,10.5,PETROL,Alpina B5
+Passenger,8,4.4,68,10.7,PETROL,BMW 8  Series
+Passenger,8,4.4,68,10.4,PETROL,BMW M8
+Passenger,6,4.0,64,11.0,PETROL,Porsche 718
+Passenger,8,4.0,72,10.8,PETROL,McLaren GT
+Passenger,8,4.0,72,10.7,PETROL,McLaren 720S
+Passenger,8,4.0,80,11.3,PETROL,Mercedes-Benz AMG GT
+Passenger,8,4.0,73,10.3,PETROL,Aston  Martin Vantage
+Passenger,8,4.0,90,11.8,PETROL,Bentley Continental
+Passenger,8,4.0,78,9.9,PETROL,Aston  Martin DB11
+Passenger,8,3.9,78,11.7,PETROL,Ferrari 488  Pista Spider
+Passenger,8,3.9,78,11.5,PETROL,Ferrari 488  Pista
+Passenger,8,3.9,86,12.4,PETROL,Ferrari F8  Spider
+Passenger,8,3.9,86,12.2,PETROL,Ferrari F8  Tributo
+Passenger,8,3.9,80,10.7,PETROL,Ferrari Portofino
+Passenger,8,3.9,91,11.6,PETROL,Ferrari GTC4Lusso
+Passenger,6,3.8,67,11.5,PETROL,Porsche 911
+Passenger,8,3.8,72,12.2,PETROL,McLaren 570GT
+Passenger,8,3.8,72,11.7,PETROL,McLaren 600LT
+Passenger,6,3.8,74,12.0,PETROL,Nissan GT-R
+Passenger,8,3.8,72,11.0,PETROL,McLaren 570S
+Passenger,6,3.7,72,10.6,PETROL,Nissan 370Z
+Passenger,6,3.5,48,10.0,PETROL,Lotus Exige
+Passenger,6,3.5,58,9.7,PETROL,Honda NSX
+Passenger,6,3.5,60,9.7,PETROL,Lotus Evora
+Passenger,6,3.5,66,9.1,PETROL,Lexus RC
+Passenger,6,3.5,82,6.7,PETROL,Lexus LC
+Passenger,6,3.0,64,9.4,PETROL,Porsche 911
+Passenger,6,3.0,60,8.8,PETROL,BMW M4
+Passenger,6,3.0,52,7.5,PETROL,BMW Z4
+Passenger,6,3.0,52,7.1,PETROL,BMW 2  Series
+Passenger,6,3.0,58,7.6,PETROL,Audi S5
+Passenger,6,3.0,80,10.4,PETROL,Mercedes-Benz AMG GT
+Passenger,6,3.0,70,8.6,PETROL,Jaguar F-TYPE
+Passenger,6,3.0,70,8.3,PETROL,Mercedes-Benz SLC-Class
+Passenger,6,3.0,68,7.9,PETROL,BMW 8  Series
+Passenger,6,2.9,58,8.8,PETROL,Audi RS5
+Passenger,5,2.5,55,8.0,PETROL,Audi TT RS
+Passenger,4,2.5,64,8.2,PETROL,Porsche 718
+Passenger,4,2.0,50,8.4,PETROL,Subaru BRZ
+Passenger,4,2.0,50,8.4,PETROL,Toyota 86
+Passenger,4,2.0,40,6.5,PETROL,MINI Convertible
+Passenger,4,2.0,45,6.8,PETROL,Mazda MX-5
+Passenger,4,2.0,52,7.2,PETROL,BMW Z4
+Passenger,4,2.0,55,7.0,PETROL,Audi TTS
+Passenger,4,2.0,55,6.6,PETROL,Audi TT
+Passenger,4,2.0,64,7.5,PETROL,Porsche 718
+Passenger,4,2.0,63,7.2,PETROL,Jaguar F-TYPE
+Passenger,4,2.0,52,5.9,PETROL,BMW 2  Series
+Passenger,4,2.0,66,7.3,PETROL,Lexus RC
+Passenger,4,2.0,54,5.6,PETROL,Audi A5
+Passenger,4,2.0,60,6.2,PETROL,Mercedes-Benz SLC-Class
+Passenger,4,1.8,40,7.5,PETROL,Lotus Elise
+Passenger,4,1.7,40,6.8,PETROL,Alfa  Romeo 4C
+Passenger,3,1.5,40,5.6,PETROL,MINI Convertible
+Passenger,4,1.5,45,6.2,PETROL,Mazda MX-5
+Passenger,6,3.0,52,7.7,PETROL,Toyota Supra
+Passenger,4,2.3,59,9.6,PETROL,Ford Mustang
+Passenger,4,2.0,50,7.0,PETROL,Hyundai Veloster
+Passenger,4,1.6,50,7.3,PETROL,Hyundai Veloster
+SUV,12,6.7,90,15.1,PETROL,Rolls-Royce Cullinan
+Passenger,12,6.7,90,13.9,PETROL,Rolls-Royce Phantom
+Passenger,12,6.6,78,13.0,PETROL,BMW 7  Series
+Passenger,8,6.4,70,13.0,PETROL,Chrysler 300
+Passenger,12,6.0,90,14.8,PETROL,Bentley Flying  Spur
+Passenger,12,6.0,80,12.7,PETROL,Mercedes-Benz S-Class
+SUV,12,6.0,85,13.1,PETROL,Bentley Bentayga
+SUV,8,5.7,138,14.4,PETROL,Lexus LX
+SUV,8,5.6,140,14.4,PETROL,Nissan Patrol
+SUV,8,5.0,104,12.8,PETROL,Land  Rover Range  Rover
+SUV,8,4.4,83,11.6,PETROL,BMW X7
+Passenger,8,4.4,78,10.1,PETROL,BMW 7  Series
+SUV,8,4.0,85,12.7,PETROL,Lamborghini Urus
+SUV,8,4.0,85,11.4,PETROL,Bentley Bentayga
+SUV,8,4.0,100,13.1,PETROL,Mercedes-Benz G-Class
+Passenger,8,4.0,90,10.9,PETROL,Porsche Panamera
+Passenger,8,4.0,80,8.5,PETROL,Mercedes-Benz S-Class
+Passenger,8,3.8,80,10.7,PETROL,Maserati Quattroporte
+Passenger,6,3.5,82,6.6,PETROL,Lexus LS
+Passenger,6,3.0,70,8.4,PETROL,Mercedes-Benz S-Class
+Passenger,6,3.0,80,9.1,PETROL,Maserati Quattroporte
+SUV,6,3.0,85,9.2,PETROL,Audi Q8
+Passenger,6,3.0,75,7.8,PETROL,Porsche Panamera
+SUV,6,3.0,90,9.2,PETROL,Mercedes-Benz GLS-Class
+Passenger,6,3.0,82,8.2,PETROL,Audi A8
+Passenger,6,3.0,78,7.7,PETROL,BMW 7  Series
+SUV,6,3.0,104,9.4,PETROL,Land  Rover Range  Rover
+Passenger,6,3.6,70,9.7,PETROL,Chrysler 300
+Light  Commercial,4,2.0,75,11.7,PETROL,LDV G10
+Light  Commercial,4,1.4,55,6.0,PETROL,Volkswagen Caddy
+Light  Commercial,4,1.2,56,6.2,PETROL,Renault Kangoo
+Light  Commercial,4,1.2,55,5.9,PETROL,Volkswagen Caddy
+Light  Commercial,6,3.5,70,12.4,PETROL,Toyota Hiace
+Passenger,6,2.9,60,6.0,DIESEL,Mercedes-Benz E-Class
+Passenger,6,3.0,66,6.3,DIESEL,Jaguar XF
+Passenger,4,2.0,66,5.6,DIESEL,Jaguar XF
+Passenger,4,2.0,66,5.2,DIESEL,BMW 5  Series
+Passenger,6,3.0,66,5.1,DIESEL,BMW 5  Series
+Passenger,4,1.9,66,4.4,DIESEL,Mercedes-Benz E-Class
+SUV,4,3.0,65,8.0,DIESEL,Isuzu MU-X
+SUV,4,2.0,75,9.1,DIESEL,LDV D90
+SUV,4,2.2,70,8.3,DIESEL,SsangYong Rexton
+SUV,4,2.4,68,8.0,DIESEL,Mitsubishi Pajero  Sport
+SUV,4,2.8,76,8.6,DIESEL,Holden Trailblazer
+SUV,8,4.4,86,9.4,DIESEL,Land  Rover Range  Rover Sport
+SUV,4,2.8,80,8.6,DIESEL,Toyota Fortuner
+SUV,4,2.0,60,6.4,DIESEL,SKODA Kodiaq
+SUV,4,2.2,71,7.5,DIESEL,Hyundai Santa  Fe
+SUV,5,3.2,80,8.4,DIESEL,Ford Everest
+SUV,4,2.0,60,6.3,DIESEL,Subaru Outback
+SUV,4,3.2,88,9.1,DIESEL,Mitsubishi Pajero
+SUV,4,2.0,60,6.2,DIESEL,Land  Rover Range  Rover Velar
+SUV,6,3.0,66,6.8,DIESEL,Land  Rover Range  Rover Velar
+SUV,4,2.2,71,7.2,DIESEL,Kia Sorento
+SUV,6,3.0,66,6.6,DIESEL,Jaguar F-PACE
+SUV,6,3.0,80,7.9,DIESEL,Maserati Levante
+SUV,6,3.0,75,7.4,DIESEL,Volkswagen Touareg
+SUV,4,2.0,60,5.8,DIESEL,Jaguar F-PACE
+SUV,6,2.9,80,7.7,DIESEL,Mercedes-Benz GLE-Class
+SUV,4,2.0,60,5.7,DIESEL,Volvo V90  Cross Country
+SUV,4,2.2,81,7.5,DIESEL,Jeep Wrangler
+SUV,6,3.0,86,7.8,DIESEL,Land  Rover Range  Rover Sport
+SUV,6,3.0,80,7.2,DIESEL,BMW X5
+SUV,8,4.0,85,7.6,DIESEL,Audi SQ7
+SUV,6,3.0,80,7.1,DIESEL,BMW X6
+SUV,4,2.0,80,6.9,DIESEL,BMW X5
+SUV,4,2.0,80,6.9,DIESEL,Ford Everest
+SUV,4,2.0,80,6.9,DIESEL,Mercedes-Benz GLE-Class
+SUV,4,2.0,71,5.9,DIESEL,Volvo XC90
+SUV,6,3.0,85,7.0,DIESEL,Audi Q7
+SUV,6,3.0,93,7.5,DIESEL,Jeep Grand  Cherokee
+SUV,4,2.2,72,5.7,DIESEL,Mazda CX-8
+SUV,4,2.8,150,7.9,DIESEL,Toyota Landcruiser  Prado
+Passenger,4,1.9,66,4.7,DIESEL,Mercedes-Benz C-Class
+SUV,4,2.2,60,6.2,DIESEL,Mitsubishi Outlander
+SUV,4,2.0,62,6.4,DIESEL,Hyundai Tucson
+SUV,4,2.0,62,6.4,DIESEL,Kia Sportage
+SUV,4,2.0,60,6.0,DIESEL,Nissan X-TRAIL
+SUV,4,2.2,58,5.7,DIESEL,Mazda CX-5
+SUV,6,3.0,65,6.3,DIESEL,Audi Q5
+SUV,4,2.0,53,5.0,DIESEL,Peugeot 3008
+SUV,6,3.0,68,6.4,DIESEL,Alpina XD3
+SUV,4,2.0,60,5.5,DIESEL,Ford Escape
+SUV,4,2.0,85,7.7,DIESEL,Land  Rover Defender
+SUV,4,2.0,60,5.4,DIESEL,Volvo XC60
+SUV,4,2.0,56,5.0,DIESEL,Peugeot 5008
+SUV,6,3.0,68,6.0,DIESEL,BMW X3
+SUV,4,2.0,65,5.7,DIESEL,Land  Rover Discovery  Sport
+SUV,4,2.0,65,5.7,DIESEL,Land  Rover Range  Rover Evoque
+SUV,4,2.0,65,5.4,DIESEL,Audi Q5
+SUV,4,2.2,64,4.8,DIESEL,Alfa  Romeo Stelvio
+Passenger,4,2.5,75,8.8,DIESEL,Hyundai iMax
+Passenger,4,1.9,75,8.7,DIESEL,LDV G10
+Passenger,4,2.8,70,8.0,DIESEL,Toyota Granvia
+Passenger,4,2.1,70,6.9,DIESEL,Mercedes-Benz Marco  Polo ACTIVITY
+Passenger,4,2.1,70,6.7,DIESEL,Mercedes-Benz V-Class
+Passenger,4,2.2,80,7.6,DIESEL,Kia Carnival
+Passenger,4,2.1,70,6.6,DIESEL,Mercedes-Benz Valente
+Light  Commercial,4,2.0,70,8.2,DIESEL,Great  Wall Steed
+Light  Commercial,4,2.8,76,8.6,DIESEL,Holden Colorado
+Light  Commercial,5,3.2,80,8.9,DIESEL,Mazda BT-50
+Light  Commercial,4,2.4,75,7.8,DIESEL,Mitsubishi Triton
+Light  Commercial,5,3.2,80,8.2,DIESEL,Ford Ranger
+Light  Commercial,4,2.2,80,8.0,DIESEL,Mazda BT-50
+Light  Commercial,4,2.8,80,7.9,DIESEL,Toyota Hilux
+Light  Commercial,4,2.4,80,7.8,DIESEL,Toyota Hilux
+Light  Commercial,4,2.3,80,7.6,DIESEL,Mercedes-Benz X-Class
+Light  Commercial,4,3.0,76,7.2,DIESEL,Isuzu D-MAX
+Light  Commercial,4,2.0,80,6.7,DIESEL,Ford Ranger
+Light  Commercial,4,2.2,80,6.5,DIESEL,Ford Ranger
+Light  Commercial,4,2.3,80,6.4,DIESEL,Nissan Navara
+Light  Commercial,6,3.0,98,11.9,DIESEL,RAM 1500
+Light  Commercial,6,3.0,80,9.7,DIESEL,Volkswagen Amarok
+Light  Commercial,4,2.8,75,8.8,DIESEL,LDV T60
+Light  Commercial,4,2.2,75,8.6,DIESEL,SsangYong Musso
+Light  Commercial,4,2.0,75,8.5,DIESEL,LDV T60
+Light  Commercial,4,2.8,76,8.6,DIESEL,Holden  Special Vehicles Colorado
+Light  Commercial,6,3.0,80,8.8,DIESEL,Mercedes-Benz X-Class
+Light  Commercial,4,2.0,80,8.0,DIESEL,Volkswagen Amarok
+Light  Commercial,8,4.5,130,10.7,DIESEL,Toyota Landcruiser
+Light  Commercial,4,2.8,76,8.9,DIESEL,Foton Tunland
+Light  Commercial,4,2.2,80,8.5,DIESEL,Mahindra PIK-UP
+Passenger,4,1.6,50,4.7,DIESEL,Hyundai i30
+SUV,4,1.6,47,5.5,DIESEL,SsangYong Korando
+SUV,4,2.0,55,6.0,DIESEL,Jaguar E-PACE
+SUV,4,2.0,51,5.1,DIESEL,BMW X2
+SUV,4,2.0,51,4.8,DIESEL,MINI Countryman
+SUV,4,2.0,61,5.3,DIESEL,BMW X1
+SUV,4,2.0,66,5.7,DIESEL,Jeep Compass
+Passenger,6,2.9,70,5.4,DIESEL,Mercedes-Benz S-Class
+Passenger,6,3.0,78,5.7,DIESEL,BMW 7  Series
+Passenger,6,3.0,82,5.9,DIESEL,Audi A8
+SUV,8,4.4,86,9.3,DIESEL,Land  Rover Range  Rover
+SUV,8,4.5,93,9.5,DIESEL,Lexus LX
+SUV,4,2.0,77,7.4,DIESEL,Land  Rover Discovery
+SUV,6,3.0,86,7.9,DIESEL,Land  Rover Range  Rover
+SUV,8,4.0,85,7.8,DIESEL,Audi SQ8
+SUV,6,3.0,85,7.8,DIESEL,Land  Rover Discovery
+SUV,6,3.0,80,7.3,DIESEL,BMW X7
+SUV,6,2.9,90,7.7,DIESEL,Mercedes-Benz GLS-Class
+SUV,6,3.0,85,6.9,DIESEL,Audi Q8
+Heavy  Commercial,4,2.3,90,6.1,DIESEL,Fiat Ducato
+Light  Commercial,4,2.5,80,9.4,DIESEL,LDV V80
+Light  Commercial,4,2.8,70,7.5,DIESEL,Toyota Hiace
+Light  Commercial,4,2.5,75,7.6,DIESEL,Hyundai iLoad
+Light  Commercial,4,2.1,70,6.9,DIESEL,Mercedes-Benz Vito
+Light  Commercial,4,2.0,55,5.3,DIESEL,Volkswagen Caddy
+Light  Commercial,4,2.0,72,6.6,DIESEL,Ford Transit  Custom
+Light  Commercial,4,2.0,80,7.3,DIESEL,Mitsubishi Express
+Light  Commercial,4,2.0,80,7.3,DIESEL,Renault Trafic
+Light  Commercial,4,2.0,69,6.2,DIESEL,Peugeot Expert
+Light  Commercial,4,1.6,70,6.2,DIESEL,Mercedes-Benz Vito
+Light  Commercial,4,1.5,60,5.2,DIESEL,Renault Kangoo
+Light  Commercial,4,1.6,80,6.6,DIESEL,Renault Trafic
+Light  Commercial,4,1.6,80,6.2,DIESEL,Mitsubishi Express
+Light  Commercial,4,1.6,69,5.2,DIESEL,Peugeot Expert
