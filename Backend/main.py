@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # from create_prediction_point import createPredictionPoint
 import mysql.connector 
 import json
+import creds
 
 
 app = FastAPI()
@@ -25,8 +26,8 @@ app.add_middleware(
 async def startup_event():
     app.state.mydb = mysql.connector.connect(
     host="cloud.mindsdb.com",
-    user="abcdefghijklmnopqrst1020@gmail.com",
-    password="J10T20a-t",
+    user=creds.user,
+    password=creds.password,
     port="3306"
     )
 
