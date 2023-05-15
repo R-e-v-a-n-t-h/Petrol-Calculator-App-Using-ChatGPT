@@ -30,7 +30,7 @@ export default function Home(props) {
       return response.data
     })
     if(x.fuel && x.fuelper100km){
-      props.navigation.push('Details',{car:car,model:model,fuel:x.fuel,fuelper100km:x.fuelper100km})
+      props.navigation.push('Details',{car:car,model:model,fuel:x.fuel,fuelper100km:x.fuelper100km, fuelcapacity:x.fuelcapacity})
     }
     else{
       setCar("")

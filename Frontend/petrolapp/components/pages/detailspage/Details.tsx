@@ -45,6 +45,7 @@ function InputAutocomplete({
         query={{
           key: GOOGLE_API_KEY,
           language: "en",
+          components: 'country:ae'
         }}
       />
     </>
@@ -57,8 +58,8 @@ export default function Details(props:any) {
   const LATITUDE_DELTA = 0.02;
   const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
   const INITIAL_POSITION = {
-    latitude: 40.76711,
-    longitude: -73.979704,
+    latitude: 25.1243,
+    longitude: 55.4096,
     latitudeDelta: LATITUDE_DELTA,
     longitudeDelta: LONGITUDE_DELTA,
   };
@@ -69,6 +70,7 @@ export default function Details(props:any) {
   const model = props.navigation.state.params.model
   const fuel = props.navigation.state.params.fuel
   const fuelper100km = props.navigation.state.params.fuelper100km
+  const fuelcapacity = props.navigation.state.params.fuelcapacity
 
   const [origin, setOrigin] = useState<LatLng | null>();
   const [destination, setDestination] = useState<LatLng | null>();
@@ -105,8 +107,10 @@ export default function Details(props:any) {
 
   const traceRoute = () => {
     if (origin && destination) {
-      setShowDirections(true);
       mapRef.current?.fitToCoordinates([origin, destination], { edgePadding });
+      setShowDirections(true);
+      
+      
     }
   };
 
@@ -114,13 +118,16 @@ export default function Details(props:any) {
     details: GooglePlaceDetail | null,
     flag: "origin" | "destination"
   ) => {
+    
     const set = flag === "origin" ? setOrigin : setDestination;
     const position = {
       latitude: details?.geometry.location.lat || 0,
       longitude: details?.geometry.location.lng || 0,
     };
+    
     set(position);
     moveTo(position);
+    
   };
   return (
     <View style={styles.container}>
@@ -133,12 +140,13 @@ export default function Details(props:any) {
         {origin && <Marker coordinate={origin} />}
         {destination && <Marker coordinate={destination} />}
         {showDirections && origin && destination && (
+          
           <MapViewDirections
             origin={origin}
             destination={destination}
             apikey={GOOGLE_API_KEY}
             strokeColor="#6644ff"
-            strokeWidth={4}
+            strokeWidth={6}
             onReady={traceRouteOnReady}
           />
         )}
@@ -159,12 +167,13 @@ export default function Details(props:any) {
         <TouchableOpacity style={styles.button} onPress={traceRoute}>
           <Text style={styles.buttonText}>Trace route</Text>
         </TouchableOpacity>
-        {distance && duration ? (
+        {distance && duration&&showDirections ? (
           <View>
-            <Text>Distance: {distance.toFixed(2)}</Text>
+            <Text>Distance: {distance.toFixed(2)} km</Text>
             <Text>Duration: {Math.ceil(duration)} min</Text>
             <Text>Car Model: {car} {model}</Text>
             <Text>{fuel} required: {(distance.toFixed(2)*(fuelper100km/100)).toFixed(2)} {fuel.toLowerCase().includes("electr")?"kWh":"L"}</Text>
+            <Text>Number Of Stops on a full {fuel.toLowerCase().includes("electr")?"charge":"tank"}: {Math.floor(((distance.toFixed(2)*(fuelper100km/100)).toFixed(2))/fuelcapacity)}</Text>
             
 
           </View>
