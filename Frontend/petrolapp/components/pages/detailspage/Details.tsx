@@ -19,7 +19,11 @@ import env from "../../../Env"
 const { width, height } = Dimensions.get("window");
 const GOOGLE_API_KEY = env.apikey;
 
-
+function titleCase(str:any) {
+  return str.toLowerCase().split(' ').map(function(word:any) {
+    return word.replace(word[0], word[0].toUpperCase());
+  }).join(' ');
+}
 
 type InputAutocompleteProps = {
   label: string;
@@ -66,11 +70,15 @@ export default function Details(props:any) {
 
 
 
-  const car = props.navigation.state.params.car
+  const car = titleCase(props.navigation.state.params.car)
   const model = props.navigation.state.params.model
-  const fuel = props.navigation.state.params.fuel
+  const fuel = props.navigation.state.params.fuel.toLowerCase().includes("electr")?"Electricity":props.navigation.state.params.fuel
   const fuelper100km = props.navigation.state.params.fuelper100km
   const fuelcapacity = props.navigation.state.params.fuelcapacity
+  const currentFuel = props.navigation.state.params.currentFuel
+  const minimum = fuel.toLowerCase().includes("electr")?15:6
+  const units=fuel.toLowerCase().includes("electr")?"kWh":"L"
+
 
   const [origin, setOrigin] = useState<LatLng | null>();
   const [destination, setDestination] = useState<LatLng | null>();
@@ -113,6 +121,21 @@ export default function Details(props:any) {
       
     }
   };
+
+
+  const calculateFuel = (dist: any) => {
+        return (dist.toFixed(2)*(fuelper100km/100)).toFixed(2)
+
+  }
+
+
+  const calculateRemainingFuel= (requiredFuel:any, currentFuel:any)=>{
+    if (requiredFuel>currentFuel) return 0
+    else{
+      return (currentFuel-requiredFuel).toFixed(2)
+    }
+  }
+
 
   const onPlaceSelected = (
     details: GooglePlaceDetail | null,
@@ -172,8 +195,21 @@ export default function Details(props:any) {
             <Text>Distance: {distance.toFixed(2)} km</Text>
             <Text>Duration: {Math.ceil(duration)} min</Text>
             <Text>Car Model: {car} {model}</Text>
-            <Text>{fuel} required: {(distance.toFixed(2)*(fuelper100km/100)).toFixed(2)} {fuel.toLowerCase().includes("electr")?"kWh":"L"}</Text>
-            <Text>Number Of Stops on a full {fuel.toLowerCase().includes("electr")?"charge":"tank"}: {Math.floor(((distance.toFixed(2)*(fuelper100km/100)).toFixed(2))/fuelcapacity)}</Text>
+            <Text>{fuel} required: {calculateFuel(distance)} {units}</Text>
+            <Text>Current {fuel}: {currentFuel} {fuel.toLowerCase().includes("electr")?"kWh":"L"}</Text>
+            <Text>Remaining: 
+              <Text 
+              style={calculateRemainingFuel(calculateFuel(distance),currentFuel)>=minimum?styles.remainingfuelgood:styles.remainingfuelbad}>{calculateRemainingFuel(calculateFuel(distance),currentFuel)} {fuel.toLowerCase().includes("electr")?"kWh":"L"}
+              </Text>
+              </Text>
+
+              <View style={styles.necessary}>
+                <Text 
+              style={calculateRemainingFuel(calculateFuel(distance),currentFuel)>=minimum?styles.remainingfuelgood:styles.remainingfuelbad}>
+                {calculateRemainingFuel(calculateFuel(distance),currentFuel)>=minimum?"":`Remainging Fuel Below ${minimum} ${units} Refuel Needed`}
+              </Text>
+              </View>
+            {/* <Text>Number Of Stops on a full {fuel.toLowerCase().includes("electr")?"charge":"tank"}: {Math.floor(((distance.toFixed(2)*(fuelper100km/100)).toFixed(2))/fuelcapacity)}</Text> */}
             
 
           </View>
@@ -220,4 +256,14 @@ const styles = StyleSheet.create({
   buttonText: {
     textAlign: "center",
   },
+  remainingfuelgood:{
+    color:"green"
+  },
+  remainingfuelbad:{
+    color:"red"
+  },
+  necessary:{
+    alignItems: "center"
+  }
+  
 });

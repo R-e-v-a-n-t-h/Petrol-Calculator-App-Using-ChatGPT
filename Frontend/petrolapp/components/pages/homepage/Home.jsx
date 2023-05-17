@@ -10,10 +10,11 @@ export default function Home(props) {
 
   const [car, setCar]= useState("")
   const [model,setModel]=useState("")
+  const [currentFuel,setCurrentFuel]=useState("")
   const[requesting, setRequesting]=useState(false)
 
   const allowed= (car,model)=>{
-    if (car && model.length==4){
+    if (car && currentFuel && model.length==4){
         var x = parseInt(model)
       if (x>=2000 && x<=2023){ return true }; return false
     }
@@ -29,12 +30,13 @@ export default function Home(props) {
       console.log(response.data)
       return response.data
     })
-    if(x.fuel && x.fuelper100km){
-      props.navigation.push('Details',{car:car,model:model,fuel:x.fuel,fuelper100km:x.fuelper100km, fuelcapacity:x.fuelcapacity})
+    if(x.fuel && x.fuelper100km && x.fuelcapacity && parseFloat(currentFuel)<=x.fuelcapacity){
+      props.navigation.push('Details',{car:car,model:model, currentFuel:parseFloat(currentFuel), fuel:x.fuel,fuelper100km:x.fuelper100km, fuelcapacity:x.fuelcapacity})
     }
     else{
       setCar("")
       setModel("")
+      setCurrentFuel("")
     }
     setRequesting(false)
   }
@@ -60,6 +62,14 @@ export default function Home(props) {
         }}
       value={model}
       editable={!requesting}></TextInput>
+      <TextInput keyboardType='numeric' 
+      placeholder="Current fuel in L/kWh" 
+      style={styles.inputs}
+      onChangeText={(currentFuel)=>{
+        currentFuel.length<=4?setCurrentFuel(currentFuel):null
+        }}
+      value={currentFuel}
+      editable={!requesting}></TextInput>
       
       <TouchableOpacity 
       style={[styles.beginButton, allowed(car,model)&&!requesting?styles.activate:styles.deactivate]} 
@@ -69,7 +79,7 @@ export default function Home(props) {
       {!requesting
       ?<>
       <Text style={allowed(car,model)?{fontSize:15,opacity:0}:{fontSize:15, opacity:0.4}
-      }>Enter Valid Model and Model Year</Text>
+      }>Enter Valid Model, Year and Fuel Capacity</Text>
       <Text></Text>
       </>
       :<>
